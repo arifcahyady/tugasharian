@@ -42,78 +42,47 @@ Akhir-Jika
 		========================= contoh pseudo code ===========================
 
 
-1).program
-hitung_luas_segitiga
-
-deklarasi
-var luas,alas,tinggi:int;
-
-alas <-25;
-tinggi <- 30;
-luas <-1/2*alas*tinggi;
-
-echo (luas);
 
 
-2).program
-hitung_luas_persegi_panjang
-
-deklarasi
-var panjang,lebar:int;
-
-panjang -> 30;
-lebar -> 20 ;
-luas ->panjang*lebar;
-
-echo (luas);
-
-3).program
-hitung_pendapatan
-
-deklarasi
-modal,laba:int;
-
-SET modal dalam setahun: 100.000.000
-SET laba dalam setahun: 200.000.000
-pendapatan = laba-modal(dalam setahun)
-
-echo (pendapatan);
-
-4).program
-perhitungan_biaya_makan
-
-deklarasi
-var pendapatan:int;
-
-pendapatan = 200.000.000;
-biaya = pendapatan*10%;
-
-echo (biaya);
-
-
-5).Program
+Program
 perhitungan_sederhana
 
 deklarasi
 var jumlah pesawat: 100;
 var penerbangan dalam sehari: 200;
 wisatawan asing: 300;
+wisatawan lokal: 450;
+penerbangan elite: 100;
+penerbangan ekonomi: 100;
 
-Jika jumlah wisatawan asing > jumlah penerbangan
+1).Jika jumlah wisatawan asing > jumlah penerbangan
 	Tampilkan tiket habis
 Lainnya 
 	Tampilkan tiket ada
 Akhir-Jika
 
-6).Jika jumlah penerbangan < jumlah pesawat
+2).Jika jumlah penerbangan < jumlah pesawat
 	Tampilkan perjalanan lancar
 Lainnya 
 	Tampilkan perjalanan delay
 Akhir-Jika
 
-7).Jika Jumlah wisatawan < jumlah penerbangan
+3).Jika jumlah wisatawan < jumlah penerbangan
 	Tambahkan penumpang yang bukan wisatawan asing
-
+4).Jika jumlah wisatawan lokal > dari jumlah penerbangan elite
+	Tambahkan penerbangan ekonomi
+5).Jika jumlah penerbangan dalam sehari < wisatawan lokal
+	Tampilkan perjalanan di bagi dua cloter
+Lainnya 
+	Tampilkan perjalanan satu arah
+Akhir-Jika
+6).Jika jumlah wisatwan asin > jumlah penerbangan lokal
+	Tambahkan penerbangan elite
+7).Jika jumlah wisatawan lokal < jumlah pesawat
+	Tampilkan perjalanan lancar
+Lainnya 
+	Tampilkan perjalanan delay
+Akhir-Jika
 
 
 
