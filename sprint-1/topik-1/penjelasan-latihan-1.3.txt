@@ -1,0 +1,18 @@
+	=================== penjelasan gambar 1.1 ==========================
+
+Di sini saya membuat file php,file ini berekstensi .php dalam penulisan nya.fungsi echo dalam gambar di gunakan untuk mengeprint tulisan yg kita buat
+ <? php 
+echo "hello world";
+?>
+
+	================== penjelasan gambar 1.2 =========================
+
+Untuk menjalankan file php melalui CLI,kita harus masuk ke direktori tempat file tadi di buat.lalu untuk menjalankan file tersebut cukup ketik:
+
+->php ('nama file php kita')
+
+	================= penjelasan gambar 1.3 ==========================
+
+Hampir sama seperti gambar 1.2,tetapi beda nya untuk menjalankan file php di browser terlebih dahulu kita harus menjalankan mysql kita,di sini saya menggunakan xampp
+
+http://localhost/kurikulum-back-end/sprint-1/topik-1/latihan-1.php
