@@ -1,0 +1,121 @@
+Program
+cara_mengoperasikan_microsoft_word
+
+-> Nyalakan komputer dengan menekan tombol power pada komputer
+-> Jika komputer menyala
+	Tampilkan layar dekstop
+Lainnya 
+	Tampilkan jendela boot menu
+Akhir-Jika
+
+-> double klik pada ikon microsoft word di dekstop
+-> Jika ikon berfungsi
+	Tampilkan jendela Kerja microsoft word
+Lainnya
+	Tampilkan application error
+Akhir-Jika
+
+-> pada jendela kerja word klik menu 
+	Jika klik menu -> new file
+		Tampilkan blank document
+	Lainnya
+		Tampilkan file does'nt exist
+Akhir-Jika
+ 
+-> KETIKA klik ikon save
+	TAMPILKAN jendela tempat file akan di simpan dan simpan
+LAINNYA
+	TAMPILKAN your file is ready exist 
+Akhir-Ketika
+
+
+-> Jika ikon X  keluar dari program ms.word
+	TAMPILKAN layar dekstop utama
+Lainnya
+	Tampilkan Null
+Akhir-Jika
+
+
+
+
+
+		========================= contoh pseudo code ===========================
+
+
+1).program
+hitung_luas_segitiga
+
+deklarasi
+var luas,alas,tinggi:int;
+
+alas <-25;
+tinggi <- 30;
+luas <-1/2*alas*tinggi;
+
+echo (luas);
+
+
+2).program
+hitung_luas_persegi_panjang
+
+deklarasi
+var panjang,lebar:int;
+
+panjang -> 30;
+lebar -> 20 ;
+luas ->panjang*lebar;
+
+echo (luas);
+
+3).program
+hitung_pendapatan
+
+deklarasi
+modal,laba:int;
+
+SET modal dalam setahun: 100.000.000
+SET laba dalam setahun: 200.000.000
+pendapatan = laba-modal(dalam setahun)
+
+echo (pendapatan);
+
+4).program
+perhitungan_biaya_makan
+
+deklarasi
+var pendapatan:int;
+
+pendapatan = 200.000.000;
+biaya = pendapatan*10%;
+
+echo (biaya);
+
+
+5).Program
+perhitungan_sederhana
+
+deklarasi
+var jumlah pesawat: 100;
+var penerbangan dalam sehari: 200;
+wisatawan asing: 300;
+
+Jika jumlah wisatawan asing > jumlah penerbangan
+	Tampilkan tiket habis
+Lainnya 
+	Tampilkan tiket ada
+Akhir-Jika
+
+6).Jika jumlah penerbangan < jumlah pesawat
+	Tampilkan perjalanan lancar
+Lainnya 
+	Tampilkan perjalanan delay
+Akhir-Jika
+
+7).Jika Jumlah wisatawan < jumlah penerbangan
+	Tambahkan penumpang yang bukan wisatawan asing
+
+
+
+
+
+
