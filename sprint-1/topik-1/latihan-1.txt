@@ -1,0 +1,90 @@
+Program
+cara_mengoperasikan_microsoft_word
+
+-> Nyalakan komputer dengan menekan tombol power pada komputer
+-> Jika komputer menyala
+	Tampilkan layar dekstop
+Lainnya 
+	Tampilkan jendela boot menu
+Akhir-Jika
+
+-> double klik pada ikon microsoft word di dekstop
+-> Jika ikon berfungsi
+	Tampilkan jendela Kerja microsoft word
+Lainnya
+	Tampilkan application error
+Akhir-Jika
+
+-> pada jendela kerja word klik menu 
+	Jika klik menu -> new file
+		Tampilkan blank document
+	Lainnya
+		Tampilkan file does'nt exist
+Akhir-Jika
+ 
+-> KETIKA klik ikon save
+	TAMPILKAN jendela tempat file akan di simpan dan simpan
+LAINNYA
+	TAMPILKAN your file is ready exist 
+Akhir-Ketika
+
+
+-> Jika ikon X  keluar dari program ms.word
+	TAMPILKAN layar dekstop utama
+Lainnya
+	Tampilkan Null
+Akhir-Jika
+
+
+
+
+
+		========================= contoh pseudo code ===========================
+
+
+
+
+Program
+perhitungan_sederhana
+
+deklarasi
+var jumlah pesawat: 100;
+var penerbangan dalam sehari: 200;
+wisatawan asing: 300;
+wisatawan lokal: 450;
+penerbangan elite: 100;
+penerbangan ekonomi: 100;
+
+1).Jika jumlah wisatawan asing > jumlah penerbangan
+	Tampilkan tiket habis
+Lainnya 
+	Tampilkan tiket ada
+Akhir-Jika
+
+2).Jika jumlah penerbangan < jumlah pesawat
+	Tampilkan perjalanan lancar
+Lainnya 
+	Tampilkan perjalanan delay
+Akhir-Jika
+
+3).Jika jumlah wisatawan < jumlah penerbangan
+	Tambahkan penumpang yang bukan wisatawan asing
+4).Jika jumlah wisatawan lokal > dari jumlah penerbangan elite
+	Tambahkan penerbangan ekonomi
+5).Jika jumlah penerbangan dalam sehari < wisatawan lokal
+	Tampilkan perjalanan di bagi dua cloter
+Lainnya 
+	Tampilkan perjalanan satu arah
+Akhir-Jika
+6).Jika jumlah wisatwan asin > jumlah penerbangan lokal
+	Tambahkan penerbangan elite
+7).Jika jumlah wisatawan lokal < jumlah pesawat
+	Tampilkan perjalanan lancar
+Lainnya 
+	Tampilkan perjalanan delay
+Akhir-Jika
+
+
+
+
+
