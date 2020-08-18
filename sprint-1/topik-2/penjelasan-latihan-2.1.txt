@@ -1,0 +1,22 @@
+	============================ penjelasan gambar 2.1 ==================================
+
+1. var_dump($d + $e)
+	hasil tetap 5 akan tetapi type datanya berubah menjadi string bukan integer,hal ini karna pada $e bertipe data string
+2. var_dump($e == $f)
+	memiliki nilai true karna memiliki value yg sama yaitu 2,walaupun type datanya berbeda
+3. var_dump($e === $f)
+	memiliki nilai false karna meskipun value nya sama pada operator ini tipe data harus sama yaitu integer atauyang lain nya
+4. var_dump($g)
+	menampilkan hasil null(hampa),karna operator ini tidak memiliki hasil
+5. var_dump((bool)$g)
+	menampilkan hasil false karena $g bukan lah tipe data bool atau tidak memiliki nilai
+6. var_dump((int)$g)
+	menampilkan hasil 0,karna null tidak memiliki nilai jadi jika di ubah ke integer akan menghasilkan nilai angka 0
+7. var_dump(true && false)
+	menampilkan hasil false karna kedua nya tidak brnilai true
+8. var_dump(true || false)
+	menampilkan nilai true karna diantaranya/salah satunya bernilai true
+9. var_dump(false || false)
+	menampilkan nilai false karna tidak terdapat nilai true di antaranya
+10. var_dump(!false)
+	menampilkan nilai true karna fungsi ! adalah sebagai negasi/ingkaran dari pernyataan nilai yg ada yaitu: false >< true dan sebalik nya
