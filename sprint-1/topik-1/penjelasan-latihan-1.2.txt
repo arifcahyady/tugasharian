@@ -1,0 +1,5 @@
+	====================== penjelasan latihan 1.2.2 ==================================
+
+Ketik kita mengetik command which php maka system akan menampilkan direktori tempat php kita di install.
+Hal ini dapat terjadi karena kita menginstall manual php kita,,sehingga system menyediakan tempat untuk file php kita yaitu di usr/bin/php
+di sinilah file installan kita di jalankan
