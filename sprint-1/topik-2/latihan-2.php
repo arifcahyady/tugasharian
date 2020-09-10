@@ -13,6 +13,7 @@ echo "Hasil Perhitungan Keliling<br>";
 echo "Diameter = 9<br>";
 echo "vi = 3.14<br>";
 echo "jari-jari = diameter / 2<br>";
+echo "Keliling lingkaran = 2 * vi * r<br>";
 echo "======================<br>";
 echo "Hasilnya Adalah: " .$hasil_keliling;
 
@@ -22,6 +23,7 @@ echo "Hasil Perhitungan Luas<br>";
 echo "Diameter = 9<br>";
 echo "vi = 3.14<br>";
 echo "jari-jari = diameter / 2<br>";
+echo "Luas lingkaran = vi * r * r<br>";
 echo "======================<br>";
 echo "Hasilnya Adalah: " .$hasil_luas;
 ?>

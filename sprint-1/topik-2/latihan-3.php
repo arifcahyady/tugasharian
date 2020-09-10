@@ -33,13 +33,4 @@ echo "Celcius = 34<br>";
 echo "Fahrenheit = Celcius + 273<br>";
 echo "====================<br>";
 echo "Hasilnya adalah: " .$kelvin;
-
-
-
-
-
-
-
-
-
 ?>
