@@ -61,28 +61,31 @@ $students = [
 //  urutnama($students);
 
 
-
-// function urutdiv(array $students) {
-// 	foreach ($students as $student) {
-// 	if ($student['division'] == 'PHP Backend') {
-// 		print_r($student);
-// 	}
-//  }
-// }
-//  urutdiv($students);
-
-
-function urutage(array $students) {
+echo "Jumlah santri yang mkinat back-end adalah ";
+function urutdiv(array $students) {
+	$x = 0;
 	foreach ($students as $student) {
-	if ($student['age'] < 25) {
-		// $getumur[] = $student['id'];
-          print_r($student);         
-	}
- }
+	if ($student['division'] == 'PHP Backend') {
+		$x +=1;
+		// print_r($student);
+      }
+ 	}
+ 	echo $x;
+}
+ urutdiv($students);
+
+
+// function urutage(array $students) {
+// 	foreach ($students as $student) {
+// 	if ($student['age'] < 25) {
+// 		// $getumur[] = $student['id'];
+//           print_r($student);         
+// 	}
+ // }
  // echo "Jumlah = " . count($getumur);
  
-}
- urutage($students);
+// }
+ // urutage($students);
 
 
 // function rerataage(array $students) {
