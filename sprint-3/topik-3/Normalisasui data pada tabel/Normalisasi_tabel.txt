@@ -1,0 +1,26 @@
+			<<===== Penjelasan Normalisasi 1NF,2NF,3NF ========>>
+
+
+
+
+<<1NF>>
+
+	Di katakan suata tabel 1NF jika dalam tabel tersebut memiliki atribut atribut data yang
+hanya memiliki nilai tunggal dalam satu baris.Pada tabel ini data tidak boleh sama atau duplicate
+
+
+<<2NF>>
+	Di katakan suatu tabel 2NF jika tidak di perkenankan ada nya partial "functional dependecy"	
+kepada primary key dalam suatu tabel.Apa itu functional dependency? "Itu adalah batasan keterkaitan 
+antara 2 attribut dalam suatu tabel"	
+
+
+<<3NF>>
+	Di katakan suatu tabel 3NF jika di perkenankan ada nya partial dalam suatu tabel.Ini merupakan kebalikan dari 2NF
+
+	Itu lah penjelasan singkat dari normalisasi tabel pada database,measkipun masih ada beberapa tipe normalisasi lain nya yang belum sempat saya bahas
+
+
+		
+
+		<<============== Don't Forget to Follow My Github ============>>
