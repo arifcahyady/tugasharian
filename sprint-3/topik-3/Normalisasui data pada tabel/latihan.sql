@@ -1,6 +1,6 @@
 -- MariaDB dump 10.17  Distrib 10.4.13-MariaDB, for Win64 (AMD64)
 --
--- Host: localhost    Database: sekolah
+-- Host: localhost    Database: user
 -- ------------------------------------------------------
 -- Server version	10.4.13-MariaDB
 
@@ -24,8 +24,11 @@ DROP TABLE IF EXISTS `jurusan`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `jurusan` (
   `id` int(11) NOT NULL,
-  `jurusan` varchar(200) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `jurusan` varchar(225) DEFAULT NULL,
+  `id_pelajaran` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_pelajaran` (`id_pelajaran`),
+  CONSTRAINT `jurusan_ibfk_1` FOREIGN KEY (`id_pelajaran`) REFERENCES `pelajaran` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -46,8 +49,8 @@ DROP TABLE IF EXISTS `pelajaran`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `pelajaran` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `pelajaran` varchar(200) DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `mapel` varchar(225) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -70,14 +73,11 @@ DROP TABLE IF EXISTS `siswa`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `siswa` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `nama` varchar(200) DEFAULT NULL,
+  `nama` varchar(225) DEFAULT NULL,
   `id_jurusan` int(11) DEFAULT NULL,
-  `id_pelajaran` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `id_jurusan` (`id_jurusan`),
-  KEY `id_pelajaran` (`id_pelajaran`),
-  CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_jurusan`) REFERENCES `jurusan` (`id`),
-  CONSTRAINT `siswa_ibfk_2` FOREIGN KEY (`id_pelajaran`) REFERENCES `pelajaran` (`id`)
+  CONSTRAINT `siswa_ibfk_1` FOREIGN KEY (`id_jurusan`) REFERENCES `jurusan` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -99,4 +99,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-09-24 14:13:29
+-- Dump completed on 2020-09-30 12:59:13
