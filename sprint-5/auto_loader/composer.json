@@ -1,0 +1,16 @@
+{
+    "name": "anonymous/auto_loader",
+    "description": "test composer",
+    "authors": [
+        {
+            "name": "arif cahyady",
+            "email": "arifcihoy@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Src\\": "Src/"
+    	}
+    }
+}
