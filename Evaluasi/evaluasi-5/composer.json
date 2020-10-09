@@ -1,0 +1,12 @@
+{
+    "name": "anonymously/evaluasi-5",
+    "authors": [
+        {
+            "name": "arif cahyady",
+            "email": "arifcihoy@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.1"
+    }
+}
