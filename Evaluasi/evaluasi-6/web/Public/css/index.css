@@ -1,0 +1,29 @@
+body {
+	background-image: linear-gradient(gray, white);
+		overflow-y: hidden;
+}
+.opacity {
+	width: 100%;
+	min-height: 350px;
+	background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"); 
+}
+.card_login {
+	width: 500px;
+	height: 600px;
+	margin-left: 33%;
+	margin-top: 100px;
+	border-radius: 7px;
+}
+.img-thumbnail {
+	width: 200px;
+	height: 120px;
+	background-color: gray;
+	border: none;
+}
+form {
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
